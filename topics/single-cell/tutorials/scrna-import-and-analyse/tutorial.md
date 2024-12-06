@@ -47,7 +47,6 @@ recordings:
 ---
 
 
-
 > <agenda-title></agenda-title>
 >
 > In this tutorial, we will cover:
@@ -92,15 +91,33 @@ The data can also be downoladed directly from the EBI website {% cite EBI SCXA s
 > All datasets are different! Some may have mitochondrial data easily found, but in some species, this is not the case. You may have to perform troubleshooting and/or adapt the analysis to your dataset of interest!
 {: .hands_on}
 
+There are many ways to learn more from public data than the original authors - there is simply too much information in any given experiment to completely publish in one study (or analyse in one week!)!
 
+# Evaluate your analysis
 
+We have used a prebuild workflow to analyse the data. However, were the base parameter settings in that workflow the best for the dataset?
 
-
-
-
-
-
-
+> <hands-on-title>Analysis Evaluation</hands-on-title>
+>
+> 1. Inspect the different parameters that you set during the Filter, plot & explore tutorial for this dataset.
+> Are you happy with the default settings? Look at the quality control plots. Does this default pipeline make sense? 
+> 
+> 2. Test different parameters in line with what you learned in the Filter, plot & explore tutorial.
+> > <tip-title>Importing data via links</tip-title>
+> >
+> > * Copy the link location
+> > * Open the Galaxy Upload Manager
+> > * Select **Paste/Fetch Data**
+> > * Paste the link into the text field
+> > * Press **Start**
+> {: .tip}
+>
+>
+> 
+> {% snippet faqs/galaxy/workflows_run.md %}
+>
+> All datasets are different! Some may have mitochondrial data easily found, but in some species, this is not the case. You may have to perform troubleshooting and/or adapt the analysis to your dataset of interest!
+{: .hands_on}
 
 
 
