@@ -56,8 +56,37 @@ Data access including levels of access are described.  Learners will be able to 
 >
 {: .agenda}
 
-# Data access and the FAIR Principles
-Data access relates to the following 5 FAIR Principles (Table 4.1).  We will discuss and signpost these in this episode.
+# EBI Data Retrieval
+
+The European Bioinformatics Institute’s Single Cell Expression Atlas has a ton of freely available, well curated datasets. This curation is key - the datasets often have clear metadata (such as ‘disease’ or ‘sex’) which is not always the case with datasets. You will now get to pick one and analyse it!
+
+> <hands-on-title>Retrieving data from Single Cell Expression Atlas</hands-on-title>
+>
+> Follow the {%  %} training material to extract the data with the following parameters 
+>
+{: .hands_on}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 | The FAIR Guiding Principles |                                                                                                                                                                                                                                                                                                                                       |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
