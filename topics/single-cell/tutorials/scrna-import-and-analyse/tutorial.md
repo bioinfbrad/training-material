@@ -1,62 +1,49 @@
 ---
 layout: tutorial_hands_on
-title: Access
+title: Import & Analyse Public Data
 abbreviations:
-  FAIR: Findable, Accessible, Interoperable, Reusable
+  EBI: European Bioinformatics Institute
 zenodo_link: ''
 questions:
-- What is data access in the context of FAIR
-- What are the different types of data access?
-- What is a data usage licence?
-- How can you share sensitive data?
+- How do you import datasets from the EBI SCXA using Galaxy?
+- What are the steps to execute a pre-built workflow in Galaxy?
+- How can you modify analysis parameters to improve cluster quality?
+- How do you annotate cell types using marker genes in your dataset?
+- What techniques can be used to compare cell populations under different conditions?
 objectives:
-- To illustrate data access in terms of the FAIR Principles using companion terms including communications protocol and authentication.
-- To interpret the data usage licence associated with different data sets.
-time_estimation: "50M"
+- Understand and Retrieve Public Bioinformatics Data.
+- Apply Analysis Workflows to Genomic Data.
+- Evaluate and Interpret Biological Data Analysis
+- Analyze and Compare Cellular Populations
+time_estimation: "2H"
 key_points:
-- Data access is supported by standardised communication protocols allowing for authentication where appropriate.
-- Metadata must be available even if data are deleted.
-- Data usage licences are applied to (meta)data detailing terms of use.
-- Sensitive data can be subject to restricted access and/or de-identification.
+- Access and import datasets from EBI SCXA using Galaxy tools, leveraging public data with rich metadata.
+- Utilize pre-built workflows in Galaxy to automate and simplify bioinformatics analysis of selected datasets.
+- Evaluate clustering results, modify analysis parameters, and annotate cell types to interpret biological significance.
+- Compare cell populations under different conditions (e.g., disease vs. healthy) to draw insights into biological effects.
 tags:
-- fair
-- dmp
-- data stewardship
+- EBI
+- single cell
 priority: 4
 contributions:
   authorship:
-    - robertmand
-    - nsjuty
-    - smza
-    - nsoranzo
-    - saramorsy
-    - kellsnow
-    - khens
-    - proccaserra
-    - lcooper
-    - sitjart
-    - asmasonomics
-    - bfranicevic
-    - saskia-lawson-tovey
-    - kkamieniecka
+    - nomadscientist
     - khaled196
+    -
     - poterlowicz-lab
-  funding:
-    - elixir-uk-dash
-subtopic: pointers
-follow_up_training:
-  - type: "internal"
-    topic_name: fair
-    tutorials:
-      - fair-persistent-identifiers
 requirements:
   - type: "internal"
-    topic_name: fair
+    topic_name: single-cell
     tutorials:
-      - fair-intro
-      - fair-origin
-      - fair-metadata
-      - fair-data-registration
+      - EBI-retrieval
+
+recordings:
+  - speakers:
+    - hexhowells
+    date: '2024-09-12'
+    length: 18M54S
+    youtube_id: "Yx7m7Uh4tVg"
+
 ---
 Data access including levels of access are described.  Learners will be able to illustrate data access in terms of the FAIR Principles using companion terms including communications protocol and authentication.  Learners will also be able to interpret the data usage licence associated with different data sets
 
