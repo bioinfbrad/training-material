@@ -1,0 +1,19 @@
+---
+destination:
+  type: library
+  name: GTN - Material
+  description: Galaxy Training Network Material
+  synopsis: Galaxy Training Network Material. See https://training.galaxyproject.org
+items:
+- name: Single Cell
+  description: the datasets we used in the tutorial from ? 
+  items:
+  - name: <Our turitail great name>
+    items:
+    - name: ' the DOI of the dt=atabase if on zenodo'
+      description: latest
+      items:
+      - url: <add url>
+        src: url
+        ext: vcf_bgzip (change)
+        info: https://zenodo.org/record/2582555 (Change)
